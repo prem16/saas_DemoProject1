@@ -83,7 +83,7 @@ namespace SaaSWebApi.Controllers
             }
         }
         [HttpPost("FinalizeCalculation")]
-        public async Task<IActionResult> FinalizeAndPay(string sessionId)
+        public async Task<IActionResult> FinalizeCalculation(string sessionId)
         {
             try
             {
